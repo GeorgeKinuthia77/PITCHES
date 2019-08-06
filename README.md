@@ -6,6 +6,11 @@ This is a web application that allows users to sign up, log in ad post a pitch w
 ## Author
 George Kinuthia(5/8/2019)
 
+## links
+Github link:https://github.com/GeorgeKinuthia77/PITCHES
+
+Live link:
+
 ## Prerequisites
 1 .python3.6
 2 .pip
@@ -49,7 +54,6 @@ $ python3.6 manage.py test
 |Add a comment	|Click on comment	|Comment form is displayed and user can comment       |
 |Upvote pitch	  |Click on upvote	|Pitch gets +1 upvote                                 |
 |Downvote pitch |Click on downvote|Pitche gets +1 downvote                              |
-
 
 ## Contact Information
 For any questions, troubleshooting or contributions, find me on: Email: gnjoro077@gmail.com
