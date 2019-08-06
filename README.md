@@ -24,3 +24,18 @@ Installing Flask and other Modules
 $ python3.6 -m pip install Flask
 $ python3.6 -m pip install Flask-Bootstrap
 $ python3.6 -m pip install Flask-Script
+
+
+## Run the application:
+
+$ chmod a+x start.sh
+$ ./start.sh
+Testing the Application To run the tests for the class files:
+
+$ python3.6 manage.py test
+
+## Technologies Used
+
+1 .Python 3.6
+2 .Flask
+3 .Boostrap
