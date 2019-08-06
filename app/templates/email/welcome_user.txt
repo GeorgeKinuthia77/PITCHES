@@ -1,4 +1,4 @@
 Hello {{user.username}}
-Welcome to Pitch-perfect.
+Welcome to Pitch.
 We have just seen you have signed up for our application.Welcome!!!!
 Feel free to post your pitch and network with other users.
