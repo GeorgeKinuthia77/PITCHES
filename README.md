@@ -9,7 +9,7 @@ George Kinuthia(5/8/2019)
 ## links
 Github link:https://github.com/GeorgeKinuthia77/PITCHES
 
-Live link:
+Live link:https://pitchino.herokuapp.com/
 
 ## Prerequisites
 1 .python3.6
