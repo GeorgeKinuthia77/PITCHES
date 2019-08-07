@@ -6,7 +6,7 @@
 {% block content %}
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-<div id="main" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREY1T1rvv2cJnOlBzuxd68kvWSZHdYGmnxvvcuGytiJ3e4-AqKXg'); background-repeat: no-repeat; background-size: cover; background-position: fixed; padding: 90px">
+<div id="main" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rrfKEjwicM0taPTGJEDr_Odu3P6ZofZ22_bFwR_2a6NObw-B'); background-repeat: no-repeat; background-size: cover; background-position: fixed; padding: 90px">
 <div class="container-fluid" >
     <div class="row" id="timeline">
     <div class="col-md-2" id="utilities">
@@ -38,7 +38,7 @@
             {% for user in users %}
                 {% if user.id == pitch.user_id %}
                     {% if user.profile_pic_path %}
-                        <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail" 
+                        <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail"
                         style="border-radius:50%; width:70px;height:70px;padding:0;">
                     {% endif %}
                 {% endif %}
@@ -105,7 +105,7 @@
                                  {% endif %}
                              {% endfor %}
                          </div>
-                         
+
                 </div>
             </div>
             <div class="modal-footer">
@@ -120,16 +120,16 @@
                         <h4 style="font-weight: bold;">Comments</h4>
                             {%for comment in pitch.comments %}
                             <div class="col-md-10" style="height:100px;overflow-y:scroll;">
-                            
-                            </div> 
+
+                            </div>
                             {% endfor %}
-                        {% endif %}     
-                    </div> 
+                        {% endif %}
+                    </div>
                 </div>
             </div>
             {% endfor %}
     </div>
-   
+
 </div>
 </div>
 

@@ -5,7 +5,7 @@
 {% block content %}
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-<div class="wrapper-view" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREY1T1rvv2cJnOlBzuxd68kvWSZHdYGmnxvvcuGytiJ3e4-AqKXg');font-family: Arial, Helvetica, sans-serif;padding-bottom: 40px; background-repeat: no-repeat; background-size: cover; background-position: fixed;">
+<div class="wrapper-view" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rrfKEjwicM0taPTGJEDr_Odu3P6ZofZ22_bFwR_2a6NObw-B');font-family: Arial, Helvetica, sans-serif;padding-bottom: 40px; background-repeat: no-repeat; background-size: cover; background-position: fixed;">
     <div class="container-fluid" id="profilepage">
         <div class="row">
             <div class="col-md-4" >
@@ -64,7 +64,7 @@
         <div class="row" style="width:100%; border-bottom: solid 1px grey;margin: 0;padding-top:10px;padding-bottom: 10px;">
         <div class="col-md-2" >
                     {% if user.profile_pic_path %}
-                        <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail" 
+                        <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail"
                         style="border-radius:50%; width:70px;height:70px;padding:0;">
                     {% endif %}
             </div>
@@ -100,7 +100,7 @@
                             </div>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
         {% endif %}
         {% endfor %}
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-          
+
         </div>
 </div>
 {% endblock %}
